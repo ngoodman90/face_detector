@@ -1,9 +1,9 @@
 import fastapi
 import uvicorn
-from face_detector.views import router as face_detector_router
-from core.views import router as core_router
 
 from config import settings
+from core.views import router as core_router
+from face_detector.views import router as face_detector_router
 
 app = fastapi.FastAPI(
     title="Face Recognition",
