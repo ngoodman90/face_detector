@@ -1,0 +1,6 @@
+cmake
+face-recognition
+fastapi
+pydantic[dotenv]
+gunicorn
+uvicorn
